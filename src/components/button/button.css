@@ -1,0 +1,34 @@
+@import '../../variables.css';
+
+.button {
+    padding: 8px 10px;
+    font-size: calc(6px + 2vmin);
+    font-weight: 600;
+    background-color: var(--secondary);
+    color: white;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    width: 300px; 
+}
+
+.button:hover {
+    background-color: black;
+}
+
+.button.danger {
+    background-color: black;
+}
+
+.button.danger:hover {
+    background-color: black;
+}
+
+.button.default {
+    background-color: var(--grey);
+}
+
+.button.default:hover {
+    background-color: black;
+}
